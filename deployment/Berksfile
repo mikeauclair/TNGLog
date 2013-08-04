@@ -1,0 +1,8 @@
+site :opscode
+
+cookbook 'apt', '= 1.9.0'
+cookbook 'build-essential'
+cookbook 'unicorn'
+cookbook 'mongodb', git: "https://github.com/sourceindex/chef-mongodb"
+cookbook 'git'
+cookbook 'chef-solo-search', git: "https://github.com/edelight/chef-solo-search.git"
